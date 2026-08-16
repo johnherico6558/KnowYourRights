@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Know Your Rights - Quiz</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+
+    <header class="navbar">
+        <div class="logo">
+            Know Your Rights
+        </div>
+
+        <nav class="main-nav" aria-label="Main navigation">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link active" href="quiz.html">Quiz</a>
+        </nav>
+    </header>
+
+
+    <!-- Quiz Introduction -->
+
+
+    <section class="quiz-hero">
+
+        <div class="hero-content">
+
+            <p class="eyebrow">TEST YOUR UNDERSTANDING.</p>
+
+            <h1>Know Your Rights Quiz</h1>
+
+            <p class="hero-description">
+                Think you've got the basics down? Answer these five questions
+                to test your understanding of human rights and how they affect
+                everyday life.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Quiz Section -->
+
+
+    <main class="quiz-section">
+
+        <div class="quiz-wrapper">
+
+            <!-- Section Heading -->
+
+
+            <div class="section-heading">
+                <p class="eyebrow">A QUICK CHECK</p>
+
+                <h2>
+                    How much do you know?
+                </h2>
+
+                <p>
+                    Choose the answer that best represents your understanding
+                    of human rights.
+                </p>
+            </div>
+
+
+            <!-- Progress -->
+
+
+            <div class="progress-area">
+
+                <div class="progress-text">
+                    <span id="question-number">Question 1 of 5</span>
+                    <span id="progress-percent">20%</span>
+                </div>
+
+                <div class="progress-bar">
+                    <div id="progress-fill"></div>
+                </div>
+
+            </div>
+
+
+            <!-- Quiz Card -->
+
+
+            <div class="quiz-card" id="quiz-card">
+
+                <div class="question-label">
+                    QUESTION <span id="current-question">1</span>
+                </div>
+
+                <h3 id="question">
+                    What are human rights?
+                </h3>
+
+
+                <div class="answers" id="answers">
+
+                    <!-- INSERT ANSWERS HERE VIA JAVASCRIPT -->
+
+                </div>
+
+
+                <div class="quiz-buttons">
+
+                    <button
+                        type="button"
+                        class="secondary-button"
+                        id="previous-button"
+                        disabled>
+                        Previous
+                    </button>
+
+                    <button
+                        type="button"
+                        class="primary-button"
+                        id="next-button">
+                        Next Question
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Result Card -->
+
+
+            <div class="result-card" id="result-card">
+
+                <p class="eyebrow">QUIZ COMPLETE</p>
+
+                <h2 id="result-title">
+                    Great job!
+                </h2>
+
+                <div class="score">
+                    <span id="score">0</span>
+                    <span class="score-total">/ 5</span>
+                </div>
+
+                <p id="result-message">
+                    Your result will appear here.
+                </p>
+
+                <button
+                    type="button"
+                    class="primary-button"
+                    id="restart-button">
+                    Take the Quiz Again
+                </button>
+
+            </div>
+
+
+            <!-- Bottom Information Cards -->
+
+
+            <section class="info-section">
+
+                <p class="eyebrow">REMEMBER</p>
+
+                <h2>
+                    Rights are for everyone.
+                </h2>
+
+                <div class="info-cards">
+
+                    <div class="info-card">
+
+                        <h3>
+                            Know Your Rights
+                        </h3>
+
+                        <p>
+                            Understanding your rights helps you recognize
+                            when you are being treated unfairly and gives
+                            you the confidence to speak up.
+                        </p>
+
+                    </div>
+
+
+                    <div class="info-card">
+
+                        <h3>
+                            Respect Others
+                        </h3>
+
+                        <p>
+                            Human rights apply to everyone. Respecting the
+                            rights of others helps create communities where
+                            people feel safe and included.
+                        </p>
+
+                    </div>
+
+
+                    <div class="info-card">
+
+                        <h3>
+                            Speak Up
+                        </h3>
+
+                        <p>
+                            If someone's rights are being violated, speaking
+                            up, seeking help, and supporting others can make
+                            a difference.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </main>
+
+
+    <!-- Footer -->
+
+
+    <footer class="footer">
+
+        <p>
+            Know Your Rights &copy; 2026
+        </p>
+
+    </footer>
+
+
+    <script src="js/quiz.js"></script>
+
+</body>
+</html>
